@@ -38,8 +38,9 @@ function doceCuotas(ingresoCapital, interes12, cantidadCuotas) {
     return resultado
 };
 
-ingresoCapital = parseInt(prompt("Ingrese capital inicial"));
+ingresoCapital = parseInt(prompt("Ingrese monto del prestamo"));
 cantidadCuotas = parseInt(prompt("ingrese cantidad de cuotas 3,6,9 o 12 o escriba 'terminar' para finalizar"));
+
 
 
 while(cantidadCuotas==3||cantidadCuotas==6||cantidadCuotas==9||cantidadCuotas==12){
@@ -63,4 +64,4 @@ while(cantidadCuotas==3||cantidadCuotas==6||cantidadCuotas==9||cantidadCuotas==1
     } ingresoCapital = parseInt(prompt("Ingrese capital inicial"));
     cantidadCuotas = parseInt(prompt("ingrese cantidad de cuotas 3,6,9 o 12 o escriba 'terminar' para finalizar"));
 
-}
+}console.log("gracias por usar el simulador de prestamos")
